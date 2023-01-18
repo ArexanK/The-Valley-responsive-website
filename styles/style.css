@@ -106,6 +106,7 @@ h3 {
     font-family: "Martel", serif;
     padding-left: 1rem;
     margin-top: 108px;
+    text-align: left;
 
 }
 
@@ -128,12 +129,14 @@ h3 {
 p {
     font-family: "Martel", serif;
     font-weight: 400;
+    font-size: 1rem;
     padding-left: 1rem;
     left: 1rem;
     right: 1rem;
     margin-top: 0.5rem;
     justify-content: center;
     max-width: 882;
+    text-align: left;
 }
 
 
@@ -142,6 +145,7 @@ header {
     height: 100vh;
     max-height: 1080px;
     position: relative;
+
     background-color: darkgrey;
     background-image: url("images/TheValleyTopIMG.JPG");
     background-repeat: no-repeat;
@@ -153,15 +157,23 @@ header {
 nav {
     position: fixed;
     display: flex;
-    justify-content: space-between;
+    width: 100%;
     padding: 0 1rem;
     align-items: center;
+
+
+
+    justify-content: space-between;
+
+    background-color: rgb(126, 126, 126);
 }
 
 header nav .site-nav {
     height: 100%;
 
+
 }
+
 
 header nav .site-nav div {
     height: 3px;
@@ -197,6 +209,13 @@ svg {
     flex-shrink: 1;
     flex-basis: 100%;
     scroll-snap-align: center;
+
+}
+
+.img-container {
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
 
 }
 
