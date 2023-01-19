@@ -79,7 +79,7 @@ h1 {
 }*/
 
 h2 {
-    color: #EDF5E1;
+    color: #f9fcf6;
     position: relative;
     font-weight: bolder;
     width: 80%;
@@ -93,7 +93,7 @@ h2 {
 }
 
 h2 span {
-    color: rgb(65, 173, 65);
+    color: #ffffff;
     display: none;
 
 }
@@ -196,9 +196,9 @@ svg {
 
 
 
-/* slider*/
+/* OPTION 1 SLIDER
 .container-slider {
-    /* padding: 0 1rem; */
+
     display: flex;
     overflow: auto;
     scroll-snap-type: x mandatory;
@@ -210,7 +210,87 @@ svg {
     flex-basis: 100%;
     scroll-snap-align: center;
 
+}*/
+
+
+
+/* OPTION 2 slider info boxes in paragrapgh*/
+
+/*.info-box1 {
+    background: var(--black);
+    color: var(--white);
+    margin-left: 1.2rem;
+    max-width: 21rem;
+    padding: 1rem;
+    margin-top: 1rem;
 }
+
+.info-box2 {
+    background: var(--black);
+    color: var(--white);
+    margin-left: 1.2rem;
+    max-width: 21rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+
+.info-box3 {
+    background: var(--black);
+    color: var(--white);
+    margin-left: 1rem;
+    max-width: 21rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}*/
+
+
+/* OPTION 3 start infinity slider*/
+
+.slide-track {
+    overflow: hidden;
+    display: flex;
+    height: 500px;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.slide-track div {
+    height: 400px;
+    min-width: 300px;
+    margin-left: 100px;
+    animation: slide 15s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    33% {
+        transform: translate3d(-375px, 0, 0);
+
+    }
+
+    66% {
+        transform: translate3d(-750px, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-1000px, 0, 0);
+        /* The image width */
+    }
+}
+
+
+
+
+
+
+
+/*end infinty slider*/
+
 
 .img-container {
     display: flex;
