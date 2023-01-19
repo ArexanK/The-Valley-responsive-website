@@ -335,6 +335,16 @@ svg {
     color: white;
 }
 
+h6 {
+    text-align: left;
+    padding-left: 1rem;
+
+}
+
+.col-1>svg {
+    align-items: left;
+}
+
 
 
 
