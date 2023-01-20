@@ -256,7 +256,7 @@ svg {
     overflow: hidden;
     display: flex;
     height: 500px;
-    width: 1500px;
+    /*width: 1500px;*/
     margin: 0 auto;
 
 }
