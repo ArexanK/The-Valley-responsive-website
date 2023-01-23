@@ -1,3 +1,5 @@
+// slide-track section
+
 var text = document.querySelector('#text-wrap');
 var word = text.getElementsByTagName('span');
 
@@ -10,3 +12,18 @@ function rotate() {
 }
 
 setInterval(rotate, 800)
+
+
+
+//contact us Modal
+let button = document.getElementById('contact-us-button')
+var dialogContactUs = document.querySelector('#contact-us-dialog')
+
+button.addEventListener('click', function () {
+    dialogContactUs.showModal()
+})
+
+// dialogContactUs.addEventListener('submit', function () {
+//     var selectThingy = document.querySelector('select')
+//     location.href = selectThingy.value
+// })
