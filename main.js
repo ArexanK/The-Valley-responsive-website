@@ -22,8 +22,3 @@ var dialogContactUs = document.querySelector('#contact-us-dialog')
 button.addEventListener('click', function () {
     dialogContactUs.showModal()
 })
-
-// dialogContactUs.addEventListener('submit', function () {
-//     var selectThingy = document.querySelector('select')
-//     location.href = selectThingy.value
-// })
