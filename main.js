@@ -23,9 +23,10 @@ button.addEventListener('click', function () {
     dialogContactUs.showModal()
 })
 
-//POP up
+// POP up
 
 let popup = document.getElementById("popup");
+
 
 function openPopup() {
     popup.classList.add("open-popup");
