@@ -234,6 +234,7 @@ svg {
     overflow: auto;
     scroll-snap-type: x mandatory;
     overflow-y: hidden;
+
 }
 
 .container-slider article {
@@ -303,6 +304,7 @@ svg {
     scroll-snap-type: x mandatory;
     overflow-y: hidden;
     margin: 0;
+    background-color: rgb(245, 252, 255);
 
 }
 
@@ -321,8 +323,9 @@ button {
     color: #fff;
     border: none;
     border-radius: 5px;
-    padding: .5em 1em;
+    padding: .4em 3em;
     cursor: pointer;
+    border-radius: 1em;
 }
 
 label {
@@ -339,6 +342,11 @@ label {
 
 
 
+}
+
+dialog {
+    /* overflow-y: hidden; */
+    padding: 0px 25px 25px -50px;
 }
 
 dialog::backdrop {
@@ -377,6 +385,48 @@ h6 {
     overflow: hidden;
     border-radius: 3rem;
 }
+
+/* pop up contact form*/
+
+.popup>h2 {
+    text-align: center;
+}
+
+.popup>span {
+    text-align: center;
+}
+
+.popup {
+    /* width: 100px; */
+    top: 50%;
+    left: 50%;
+
+    color: black;
+    background: rgb(255, 251, 251);
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    align-items: center;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+
+}
+
+
+.open-popup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    position: fixed;
+
+}
+
+.popup img {
+    width: 80px;
+    margin-top: -50px;
+    border-radius: 50%;
+
+}
+
 
 
 

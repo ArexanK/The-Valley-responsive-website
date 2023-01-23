@@ -490,9 +490,18 @@
             style="height: 200px"
           ></textarea>
 
-          <button type="submit">Send</button>
+          <button type="submit" class="btn-submit" onclick="openPopup()">
+            Send
+          </button>
         </form>
       </dialog>
+      <!--POP thank you-->
+      <div class="popup" id="popup">
+        <img src="styles/images/greentick2.jpeg" />
+        <h2><span>Thank you!</span></h2>
+        <p><span> Your details has been succesfully submitted.</span></p>
+        <button type="button" onclick="closePopup()">OK</button>
+      </div>
 
       <!--SLIDER OFFICE IMAGES SECTION-->
 
