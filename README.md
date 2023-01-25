@@ -1,18 +1,40 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# 
+![3 - logo](https://user-images.githubusercontent.com/94745953/214565507-c6e94061-476d-41bf-a17c-d84e5eb8757e.png)
+![carousel2](https://user-images.githubusercontent.com/94745953/214565828-e25c04c6-84a2-4db4-bc92-d4acaccbd22b.PNG)
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+# 🔖 Opdracht
+Ontwerp en maak een interactieve website voor een opdrachtgever.
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
+## 📝 Beschrijving
 
 
-## Licentie
+
+## 🔎 Kenmerken
+ * * HTML:
+- Header
+- Main
+- Sections/ articals
+- Modal Formulier
+-
+
+* * CSS:
+- Navbar
+- buttons
+- transitions
+- animations
+- keyframes
+- grid
+
+* * JS:
+- AddEventListener
+- QuerySelectorAll
+- getElementId
+
+
+
+## 👾 Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
 
