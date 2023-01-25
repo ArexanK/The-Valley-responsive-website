@@ -8,6 +8,7 @@
 
 * {
     box-sizing: border-box;
+    line-height: 1.4em;
 }
 
 
@@ -27,6 +28,7 @@ body {
     align-items: center;
     letter-spacing: 1px;
     text-align: center;
+
 
 
 }
@@ -118,19 +120,22 @@ h3>span {
     font-size: small;
     text-align: left;
     margin: 0;
+
 }
 
 h4>span {
     color: red;
     font-size: small;
-    text-align: left"  
+    text-align: left;
+
 
 }
 
 h4 {
     color: red;
     font-size: larger;
-    text-align: center;
+    text-align: left;
+    gap: 0;
 }
 
 
@@ -141,7 +146,7 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
-    justify-content: center;
+    justify-content: left;
     padding: 1em;
 }
 
@@ -473,6 +478,67 @@ h6 {
         left: 5%;
     }
 
+
+    .text-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas: "h3 p";
+    }
+
+    .text-container h3 {
+        grid-area: h3;
+        width: 100%;
+        margin: 0;
+    }
+
+    .text-container p {
+        grid-area: p;
+    }
+
+
+
+
+
 }
 
-@media screen and (min-width: 769px) {}
+
+@media screen and (min-width: 768px) {
+
+    .img-container>article {
+        width: 200%;
+    }
+
+    .contact-container>article {
+        width: 200%;
+    }
+
+    p {
+        max-width: 60em;
+
+    }
+
+}
+
+
+@media screen and (min-width: 1224px) {
+    .img-container>article {
+        width: 400%;
+    }
+
+    .contact-container>article {
+        width: 400%;
+    }
+
+    h3 {
+        width: 400%;
+    }
+
+    p {
+        max-width: 60em;
+
+    }
+
+
+
+
+}
