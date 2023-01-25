@@ -29,7 +29,7 @@ Op de website heb ik verschillende micro-annimaties toegevoegd. Voor de header t
 Voor de facts en figures heb ik een slide-track gemaakt waardoor het uitbeeld weer terug in beeld kan komen. Voor images heb ik een scroll/carousel gemaakt. Ik heb een modal gemaakt met daarbij een thank you pop-up nadat je het hebt ingevuld. 
 
 
-## Checklist wel/niet gelukt 
+## 👀 Checklist wel/niet gelukt 
 
 Gelukt ✅:
 
