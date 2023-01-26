@@ -7,6 +7,13 @@
 # 🔖 Opdracht
 Ontwerp en maak een interactieve website voor The Valley
 
+<img width="425" alt="Screenshot 2023-01-26 at 19 23 15" src="https://user-images.githubusercontent.com/94745953/214918410-5a31a7ac-249a-42af-963c-8493f8ffee64.png">
+
+
+
+
+
+
 # 🖇 Inhoud
 - Over the Valley
 - Design challenge
