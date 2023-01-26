@@ -5,7 +5,7 @@
 ![carousel2](https://user-images.githubusercontent.com/94745953/214565828-e25c04c6-84a2-4db4-bc92-d4acaccbd22b.PNG)
 
 # 🔖 Opdracht
-Ontwerp en maak een interactieve website voor een opdrachtgever.
+Ontwerp en maak een interactieve website voor The Valley
 
 # 🖇 Inhoud
 - Over the Valley
@@ -16,7 +16,7 @@ Ontwerp en maak een interactieve website voor een opdrachtgever.
 - licentie
 
 
-# 🏦 Over The Vally
+# 🏦 Over The Valley
 The Valley is a company that specializes in creating complete customer journeys for businesses. They have been in the industry for over two decades and have experience in developing both the communication and customer experience for businesses. They work as a strategic partner with businesses to understand their customer behavior and brand mission, and use a total customer experience approach to help businesses achieve their goals in the buying journey. This includes areas such as marketing, service design, automation, and e-commerce.
 
 ## 🎨 Design Challenge
