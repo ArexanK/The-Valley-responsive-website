@@ -9,17 +9,6 @@ Ontwerp en maak een interactieve website voor The Valley
 
 <img width="425" alt="Screenshot 2023-01-26 at 19 23 15" src="https://user-images.githubusercontent.com/94745953/214918410-5a31a7ac-249a-42af-963c-8493f8ffee64.png">
 
-# Webiste
-
-<img width="293" alt="Screenshot 2023-01-27 at 09 32 04" src="https://user-images.githubusercontent.com/94745953/215042914-0721b710-b8cc-492a-89af-4b7af8d96411.png">
-
-
-
-<img width="503" alt="Screenshot 2023-01-27 at 09 38 21" src="https://user-images.githubusercontent.com/94745953/215043708-c26462b7-7768-4455-9cbe-c3582aa19e06.png">
-
-
-
-
 
 
 # 🖇 Inhoud
