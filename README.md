@@ -76,7 +76,8 @@ Niet gelukt❌:
 - QuerySelectorAll
 - getElementId
 
-* * Validation en kleurcontrast check
+* * Figma:
+- 
 
 Live Url 🌎
 
